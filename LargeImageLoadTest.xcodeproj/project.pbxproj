@@ -11,7 +11,6 @@
 		1C9733EA20C6837800FA1EDA /* SDImageCache+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733E920C6837800FA1EDA /* SDImageCache+largeImage.m */; };
 		1C9733ED20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733EC20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m */; };
 		1C9733F020C6846100FA1EDA /* SDWebImageManager+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733EF20C6846100FA1EDA /* SDWebImageManager+largeImage.m */; };
-		1C9733F720C80C3000FA1EDA /* 按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9733F620C80C3000FA1EDA /* 按钮.png */; };
 		1C9733FA20C80CF700FA1EDA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733F920C80CF700FA1EDA /* TableViewController.m */; };
 		1C97340120C80F1700FA1EDA /* YPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733FF20C80F1700FA1EDA /* YPTableViewCell.m */; };
 		1C97340220C80F1700FA1EDA /* YPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340020C80F1700FA1EDA /* YPTableViewCell.xib */; };
@@ -43,7 +42,6 @@
 		1C9733EC20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageDownloader+largeImage.m"; sourceTree = "<group>"; };
 		1C9733EE20C6846100FA1EDA /* SDWebImageManager+largeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+largeImage.h"; sourceTree = "<group>"; };
 		1C9733EF20C6846100FA1EDA /* SDWebImageManager+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+largeImage.m"; sourceTree = "<group>"; };
-		1C9733F620C80C3000FA1EDA /* 按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮.png"; sourceTree = "<group>"; };
 		1C9733F820C80CF700FA1EDA /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		1C9733F920C80CF700FA1EDA /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		1C9733FE20C80F1700FA1EDA /* YPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPTableViewCell.h; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 				1C97340420C8BB6A00FA1EDA /* 1.jpg */,
 				1C97340320C8BB6A00FA1EDA /* 2.jpg */,
 				1C97340620C8BB6B00FA1EDA /* 3.jpg */,
-				1C9733F620C80C3000FA1EDA /* 按钮.png */,
 				1C9900F220BFCA0A00B8BAC5 /* AppDelegate.h */,
 				1C9900F320BFCA0A00B8BAC5 /* AppDelegate.m */,
 				1C9900F820BFCA0A00B8BAC5 /* Main.storyboard */,
@@ -249,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C97340220C80F1700FA1EDA /* YPTableViewCell.xib in Resources */,
-				1C9733F720C80C3000FA1EDA /* 按钮.png in Resources */,
 				1C97340820C8BB6B00FA1EDA /* 1.jpg in Resources */,
 				1C9900FF20BFCA0B00B8BAC5 /* LaunchScreen.storyboard in Resources */,
 				1C97340720C8BB6B00FA1EDA /* 2.jpg in Resources */,
