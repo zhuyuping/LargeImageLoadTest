@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C53890A21017A860004C5FE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53890921017A860004C5FE /* MainViewController.m */; };
+		1C9733EA20C6837800FA1EDA /* SDImageCache+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733E920C6837800FA1EDA /* SDImageCache+largeImage.m */; };
+		1C9733ED20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733EC20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m */; };
+		1C9733F020C6846100FA1EDA /* SDWebImageManager+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733EF20C6846100FA1EDA /* SDWebImageManager+largeImage.m */; };
+		1C9733F720C80C3000FA1EDA /* 按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9733F620C80C3000FA1EDA /* 按钮.png */; };
+		1C9733FA20C80CF700FA1EDA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733F920C80CF700FA1EDA /* TableViewController.m */; };
+		1C97340120C80F1700FA1EDA /* YPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9733FF20C80F1700FA1EDA /* YPTableViewCell.m */; };
+		1C97340220C80F1700FA1EDA /* YPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340020C80F1700FA1EDA /* YPTableViewCell.xib */; };
+		1C97340720C8BB6B00FA1EDA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340320C8BB6A00FA1EDA /* 2.jpg */; };
+		1C97340820C8BB6B00FA1EDA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340420C8BB6A00FA1EDA /* 1.jpg */; };
+		1C97340920C8BB6B00FA1EDA /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340520C8BB6B00FA1EDA /* 0.jpg */; };
+		1C97340A20C8BB6B00FA1EDA /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C97340620C8BB6B00FA1EDA /* 3.jpg */; };
+		1C97340D20C9320600FA1EDA /* YPLargeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C97340B20C9320600FA1EDA /* YPLargeImageView.m */; };
+		1C9900F420BFCA0A00B8BAC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9900F320BFCA0A00B8BAC5 /* AppDelegate.m */; };
+		1C9900F720BFCA0A00B8BAC5 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9900F620BFCA0A00B8BAC5 /* ImageViewController.m */; };
+		1C9900FA20BFCA0A00B8BAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9900F820BFCA0A00B8BAC5 /* Main.storyboard */; };
+		1C9900FC20BFCA0B00B8BAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9900FB20BFCA0B00B8BAC5 /* Assets.xcassets */; };
+		1C9900FF20BFCA0B00B8BAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9900FD20BFCA0B00B8BAC5 /* LaunchScreen.storyboard */; };
+		1C99010220BFCA0B00B8BAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99010120BFCA0B00B8BAC5 /* main.m */; };
+		1C99010C20BFF76000B8BAC5 /* UIImageView+largeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C99010B20BFF76000B8BAC5 /* UIImageView+largeImage.m */; };
+		1C9BE1F72101AE7F00FFB64E /* YPTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9BE1F62101AE7F00FFB64E /* YPTableViewCell2.m */; };
+		1C9BE1F92101AE8900FFB64E /* YPTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9BE1F82101AE8900FFB64E /* YPTableViewCell2.xib */; };
+		1CA991D42101C1D400B4D58A /* Timinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA991D32101C1D400B4D58A /* Timinger.m */; };
+		80FBCE15C3129596BC22F5DC /* libPods-LargeImageLoadTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AD2D719F4DE7AC5F1AE038 /* libPods-LargeImageLoadTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08AD2D719F4DE7AC5F1AE038 /* libPods-LargeImageLoadTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LargeImageLoadTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C53890821017A860004C5FE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1C53890921017A860004C5FE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1C9733E820C6837800FA1EDA /* SDImageCache+largeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDImageCache+largeImage.h"; sourceTree = "<group>"; };
+		1C9733E920C6837800FA1EDA /* SDImageCache+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDImageCache+largeImage.m"; sourceTree = "<group>"; };
+		1C9733EB20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebImageDownloader+largeImage.h"; sourceTree = "<group>"; };
+		1C9733EC20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageDownloader+largeImage.m"; sourceTree = "<group>"; };
+		1C9733EE20C6846100FA1EDA /* SDWebImageManager+largeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+largeImage.h"; sourceTree = "<group>"; };
+		1C9733EF20C6846100FA1EDA /* SDWebImageManager+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+largeImage.m"; sourceTree = "<group>"; };
+		1C9733F620C80C3000FA1EDA /* 按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮.png"; sourceTree = "<group>"; };
+		1C9733F820C80CF700FA1EDA /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1C9733F920C80CF700FA1EDA /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1C9733FE20C80F1700FA1EDA /* YPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPTableViewCell.h; sourceTree = "<group>"; };
+		1C9733FF20C80F1700FA1EDA /* YPTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPTableViewCell.m; sourceTree = "<group>"; };
+		1C97340020C80F1700FA1EDA /* YPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YPTableViewCell.xib; sourceTree = "<group>"; };
+		1C97340320C8BB6A00FA1EDA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1C97340420C8BB6A00FA1EDA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1C97340520C8BB6B00FA1EDA /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		1C97340620C8BB6B00FA1EDA /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1C97340B20C9320600FA1EDA /* YPLargeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLargeImageView.m; sourceTree = "<group>"; };
+		1C97340C20C9320600FA1EDA /* YPLargeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLargeImageView.h; sourceTree = "<group>"; };
+		1C9900EF20BFCA0A00B8BAC5 /* LargeImageLoadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeImageLoadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9900F220BFCA0A00B8BAC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C9900F320BFCA0A00B8BAC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C9900F520BFCA0A00B8BAC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		1C9900F620BFCA0A00B8BAC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		1C9900F920BFCA0A00B8BAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C9900FB20BFCA0B00B8BAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C9900FE20BFCA0B00B8BAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C99010020BFCA0B00B8BAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C99010120BFCA0B00B8BAC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C99010A20BFF76000B8BAC5 /* UIImageView+largeImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+largeImage.h"; sourceTree = "<group>"; };
+		1C99010B20BFF76000B8BAC5 /* UIImageView+largeImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+largeImage.m"; sourceTree = "<group>"; };
+		1C9BE1F52101AE7F00FFB64E /* YPTableViewCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPTableViewCell2.h; sourceTree = "<group>"; };
+		1C9BE1F62101AE7F00FFB64E /* YPTableViewCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPTableViewCell2.m; sourceTree = "<group>"; };
+		1C9BE1F82101AE8900FFB64E /* YPTableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YPTableViewCell2.xib; sourceTree = "<group>"; };
+		1CA991D22101C1D400B4D58A /* Timinger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timinger.h; sourceTree = "<group>"; };
+		1CA991D32101C1D400B4D58A /* Timinger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timinger.m; sourceTree = "<group>"; };
+		7FB91550C6A9765CF0978C91 /* Pods-LargeImageLoadTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LargeImageLoadTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LargeImageLoadTest/Pods-LargeImageLoadTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9F7C0EE6EB1610CBF230B924 /* Pods-LargeImageLoadTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LargeImageLoadTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LargeImageLoadTest/Pods-LargeImageLoadTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9900EC20BFCA0A00B8BAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBCE15C3129596BC22F5DC /* libPods-LargeImageLoadTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C53890B2101822F0004C5FE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C53890821017A860004C5FE /* MainViewController.h */,
+				1C53890921017A860004C5FE /* MainViewController.m */,
+				1C9900F520BFCA0A00B8BAC5 /* ImageViewController.h */,
+				1C9900F620BFCA0A00B8BAC5 /* ImageViewController.m */,
+				1C9733F820C80CF700FA1EDA /* TableViewController.h */,
+				1C9733F920C80CF700FA1EDA /* TableViewController.m */,
+				1C9733FE20C80F1700FA1EDA /* YPTableViewCell.h */,
+				1C9733FF20C80F1700FA1EDA /* YPTableViewCell.m */,
+				1C97340020C80F1700FA1EDA /* YPTableViewCell.xib */,
+				1C9BE1F52101AE7F00FFB64E /* YPTableViewCell2.h */,
+				1C9BE1F62101AE7F00FFB64E /* YPTableViewCell2.m */,
+				1C9BE1F82101AE8900FFB64E /* YPTableViewCell2.xib */,
+				1CA991D22101C1D400B4D58A /* Timinger.h */,
+				1CA991D32101C1D400B4D58A /* Timinger.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1C9900E620BFCA0900B8BAC5 = {
+			isa = PBXGroup;
+			children = (
+				1C9900F120BFCA0A00B8BAC5 /* LargeImageLoadTest */,
+				1C9900F020BFCA0A00B8BAC5 /* Products */,
+				59E6C2AE5168EB3AC9BCDF10 /* Pods */,
+				37777061DEAA57C436AA8F61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C9900F020BFCA0A00B8BAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9900EF20BFCA0A00B8BAC5 /* LargeImageLoadTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C9900F120BFCA0A00B8BAC5 /* LargeImageLoadTest */ = {
+			isa = PBXGroup;
+			children = (
+				1CA991D62101DCDF00B4D58A /* YPLargeImageView */,
+				1CA991D52101DCBF00B4D58A /* sliceImageView */,
+				1C53890B2101822F0004C5FE /* ViewController */,
+				1C97340520C8BB6B00FA1EDA /* 0.jpg */,
+				1C97340420C8BB6A00FA1EDA /* 1.jpg */,
+				1C97340320C8BB6A00FA1EDA /* 2.jpg */,
+				1C97340620C8BB6B00FA1EDA /* 3.jpg */,
+				1C9733F620C80C3000FA1EDA /* 按钮.png */,
+				1C9900F220BFCA0A00B8BAC5 /* AppDelegate.h */,
+				1C9900F320BFCA0A00B8BAC5 /* AppDelegate.m */,
+				1C9900F820BFCA0A00B8BAC5 /* Main.storyboard */,
+				1C9900FB20BFCA0B00B8BAC5 /* Assets.xcassets */,
+				1C9900FD20BFCA0B00B8BAC5 /* LaunchScreen.storyboard */,
+				1C99010020BFCA0B00B8BAC5 /* Info.plist */,
+				1C99010120BFCA0B00B8BAC5 /* main.m */,
+			);
+			path = LargeImageLoadTest;
+			sourceTree = "<group>";
+		};
+		1CA991D52101DCBF00B4D58A /* sliceImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1C99010A20BFF76000B8BAC5 /* UIImageView+largeImage.h */,
+				1C99010B20BFF76000B8BAC5 /* UIImageView+largeImage.m */,
+				1C9733EE20C6846100FA1EDA /* SDWebImageManager+largeImage.h */,
+				1C9733EF20C6846100FA1EDA /* SDWebImageManager+largeImage.m */,
+				1C9733EB20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.h */,
+				1C9733EC20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m */,
+				1C9733E820C6837800FA1EDA /* SDImageCache+largeImage.h */,
+				1C9733E920C6837800FA1EDA /* SDImageCache+largeImage.m */,
+			);
+			path = sliceImageView;
+			sourceTree = "<group>";
+		};
+		1CA991D62101DCDF00B4D58A /* YPLargeImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1C97340C20C9320600FA1EDA /* YPLargeImageView.h */,
+				1C97340B20C9320600FA1EDA /* YPLargeImageView.m */,
+			);
+			path = YPLargeImageView;
+			sourceTree = "<group>";
+		};
+		37777061DEAA57C436AA8F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08AD2D719F4DE7AC5F1AE038 /* libPods-LargeImageLoadTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59E6C2AE5168EB3AC9BCDF10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB91550C6A9765CF0978C91 /* Pods-LargeImageLoadTest.debug.xcconfig */,
+				9F7C0EE6EB1610CBF230B924 /* Pods-LargeImageLoadTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C9900EE20BFCA0A00B8BAC5 /* LargeImageLoadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C99010520BFCA0B00B8BAC5 /* Build configuration list for PBXNativeTarget "LargeImageLoadTest" */;
+			buildPhases = (
+				A0F48FB4EDFB0E8033DD728D /* [CP] Check Pods Manifest.lock */,
+				1C9900EB20BFCA0A00B8BAC5 /* Sources */,
+				1C9900EC20BFCA0A00B8BAC5 /* Frameworks */,
+				1C9900ED20BFCA0A00B8BAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LargeImageLoadTest;
+			productName = LargeImageLoadTest;
+			productReference = 1C9900EF20BFCA0A00B8BAC5 /* LargeImageLoadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C9900E720BFCA0900B8BAC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ZYP;
+				TargetAttributes = {
+					1C9900EE20BFCA0A00B8BAC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1C9900EA20BFCA0900B8BAC5 /* Build configuration list for PBXProject "LargeImageLoadTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C9900E620BFCA0900B8BAC5;
+			productRefGroup = 1C9900F020BFCA0A00B8BAC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C9900EE20BFCA0A00B8BAC5 /* LargeImageLoadTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C9900ED20BFCA0A00B8BAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C97340220C80F1700FA1EDA /* YPTableViewCell.xib in Resources */,
+				1C9733F720C80C3000FA1EDA /* 按钮.png in Resources */,
+				1C97340820C8BB6B00FA1EDA /* 1.jpg in Resources */,
+				1C9900FF20BFCA0B00B8BAC5 /* LaunchScreen.storyboard in Resources */,
+				1C97340720C8BB6B00FA1EDA /* 2.jpg in Resources */,
+				1C9BE1F92101AE8900FFB64E /* YPTableViewCell2.xib in Resources */,
+				1C97340920C8BB6B00FA1EDA /* 0.jpg in Resources */,
+				1C97340A20C8BB6B00FA1EDA /* 3.jpg in Resources */,
+				1C9900FC20BFCA0B00B8BAC5 /* Assets.xcassets in Resources */,
+				1C9900FA20BFCA0A00B8BAC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0F48FB4EDFB0E8033DD728D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LargeImageLoadTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9900EB20BFCA0A00B8BAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C53890A21017A860004C5FE /* MainViewController.m in Sources */,
+				1C97340120C80F1700FA1EDA /* YPTableViewCell.m in Sources */,
+				1C9733ED20C683EE00FA1EDA /* SDWebImageDownloader+largeImage.m in Sources */,
+				1C9BE1F72101AE7F00FFB64E /* YPTableViewCell2.m in Sources */,
+				1C9733F020C6846100FA1EDA /* SDWebImageManager+largeImage.m in Sources */,
+				1C99010C20BFF76000B8BAC5 /* UIImageView+largeImage.m in Sources */,
+				1C9900F720BFCA0A00B8BAC5 /* ImageViewController.m in Sources */,
+				1C97340D20C9320600FA1EDA /* YPLargeImageView.m in Sources */,
+				1C9733FA20C80CF700FA1EDA /* TableViewController.m in Sources */,
+				1C9733EA20C6837800FA1EDA /* SDImageCache+largeImage.m in Sources */,
+				1C99010220BFCA0B00B8BAC5 /* main.m in Sources */,
+				1CA991D42101C1D400B4D58A /* Timinger.m in Sources */,
+				1C9900F420BFCA0A00B8BAC5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C9900F820BFCA0A00B8BAC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C9900F920BFCA0A00B8BAC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C9900FD20BFCA0B00B8BAC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C9900FE20BFCA0B00B8BAC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C99010320BFCA0B00B8BAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C99010420BFCA0B00B8BAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C99010620BFCA0B00B8BAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB91550C6A9765CF0978C91 /* Pods-LargeImageLoadTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N46VGUZVN4;
+				INFOPLIST_FILE = LargeImageLoadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjubao.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C99010720BFCA0B00B8BAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7C0EE6EB1610CBF230B924 /* Pods-LargeImageLoadTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N46VGUZVN4;
+				INFOPLIST_FILE = LargeImageLoadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjubao.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C9900EA20BFCA0900B8BAC5 /* Build configuration list for PBXProject "LargeImageLoadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C99010320BFCA0B00B8BAC5 /* Debug */,
+				1C99010420BFCA0B00B8BAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C99010520BFCA0B00B8BAC5 /* Build configuration list for PBXNativeTarget "LargeImageLoadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C99010620BFCA0B00B8BAC5 /* Debug */,
+				1C99010720BFCA0B00B8BAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C9900E720BFCA0900B8BAC5 /* Project object */;
+}
