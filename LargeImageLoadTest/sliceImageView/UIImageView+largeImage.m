@@ -150,7 +150,7 @@
                     }
                     CGContextDrawImage( self.destContext, destTile, sourceTileImageRef );
                     CGImageRelease( sourceTileImageRef );
-                    if( y < iterations - 1 ) {
+                    if( y < iterations  ) {
                         [self performSelectorOnMainThread:@selector(updateView) withObject:nil waitUntilDone:YES];
                     }
                 }
